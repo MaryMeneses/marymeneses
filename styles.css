@@ -1,0 +1,189 @@
+/* html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px; font-style: normal; 
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 26.4px;
+} */
+
+/* nav {
+      margin-top: 0px;
+      padding: 0px;
+      overflow: hidden;
+      background-color: #333;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      display: block;
+      
+}
+
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+} */
+
+/* Color Palette
+# - color 1
+# - color 2
+# - color 3
+# - color 4
+*/
+
+/* Color palette
+$color1: rgba(10, 9, 8, 1);
+$color2: rgba(34, 51, 59, 1);
+$color3: rgba(242, 244, 243, 1);
+$color4: rgba(169, 146, 125, 1);
+$color5: rgba(94, 80, 63, 1);
+*/
+
+/* Global styles 
+------------------------------------*/
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background: #ffffff;
+    font-family: 'Arial';
+    margin: 0;
+  }
+  
+  .content-wrap {
+    max-width: 950px; 
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+  }
+  
+  h2 {
+    margin-top: 0;
+    font-family: 'Bitter', serif;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  .column-narrow {
+    width: 30%; 
+    float: left; 
+    padding-right: 3%; 
+    min-height: 175px;
+  }
+  
+  .column-wide {
+    width: 70%; 
+    float: left; 
+    min-height: 225px;
+  }
+  
+  
+  /* Navigation Menu
+  -------------------------------------*/
+  nav {
+  /*   list-style-type: none; */
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: block;
+    
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+  /* Change the link color to #111 (black) on hover */
+  a:hover {
+    background-color: #111;
+  }
+  
+  /* Header & Footer 
+  ------------------------------------*/
+  footer {
+    /* justify-content: center; */
+    text-align: center;
+  }
+  
+  header {
+    background: white;
+  }
+  
+  /* header {
+    background-image: url("https://cdn.glitch.com/ed6bd883-6ad8-436c-8874-36098ecf5544%2Fbackground.jpg?v=1571632772640");
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+  
+  .contact-info a {
+    padding: 10px; 
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .contact-info a:hover {
+    background-color: gray;
+  }
+  
+  .profile-img {
+  /*   width: 300px; */
+    border-radius:50%;
+  /*   float: left; */
+  /*   margin-right: 50px; */
+  }
+  
+  
+  /* Work Experience
+  ------------------------------------*/
+  #work {
+  /*   background: rgba(169, 146, 125, .05); */
+    background: #454341;
+  }
+  
+  .work-experience {
+    color: #DFE9E9;
+  }
+
+  .relevant-courses {
+    color: #DFE9E9;
+  }
+  
+  
+  /* Education
+  ------------------------------------*/
+  #education {
+    background: #5C4742;
+    color: white;
+    background: linear-gradient(rgba(70,130,180, 0.3),
+                   rgba(70,130,180, 0.5)), url("https://cdn.glitch.com/ed6bd883-6ad8-436c-8874-36098ecf5544%2Fbackground.jpg?v=1571632772640");
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
