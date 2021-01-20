@@ -195,7 +195,7 @@ html {
     background: #5C4742;
     color: white;
     /* background: linear-gradient(rgba(70,130,180, 0.3), rgba(70,130,180, 0.5)), url("https://cdn.glitch.com/ed6bd883-6ad8-436c-8874-36098ecf5544%2Fbackground.jpg?v=1571632772640"); */
-    background: linear-gradient(rgba(70,130,180, 0.3), rgba(7, 13, 19, 0.7)), url("background-blue-mountain.jpg");
+    background: linear-gradient(rgba(70,130,180, 0.3), rgba(7, 13, 19, 0.7)), url("background-poly.jpg");
     /* background: url("background-poly.jpg"); */
     background-attachment: fixed; 
     background-position: center;
