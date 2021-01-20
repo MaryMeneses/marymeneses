@@ -119,70 +119,69 @@ html {
     padding: 2vh;
     text-decoration: none;
   }
-
-
-  /* Used Animista for CSS Animation. MUST be  */
-  /* a {
-    display:block;
-  } */
-
   
-  /* Change the link color to #111 (black) on hover */
+  /* Changes the link color to #111 (black) on hover */
   nav > a:hover {
     background-color: rgb(22, 22, 22);
   }
   
-  /* Header & Footer 
-  ------------------------------------*/
-  footer {
-    /* justify-content: center; */
-    text-align: center;
-    background-color: rgb(227, 229, 230);
+  /* Header & Footer */
+  
+  .profile-img {
+    border-radius: 50%;
+    border: 11px solid rgba(255, 255, 255, .8);
   }
   
   header {
     /* background-image: url("https://cdn.glitch.com/ed6bd883-6ad8-436c-8874-36098ecf5544%2Fbackground.jpg?v=1571632772640"); */
     /* background-image: linear-gradient(rgba(216, 107, 79, 0.3), rgba(134, 158, 189, 0.5)), url("background-stars.jpg"); */
-    background: url("background-stars.jpg");
+    /* background: url("background-fairy.jpg"); */
+    background-image: linear-gradient(rgba(1, 48, 255, 0.2), rgba(0, 0, 0, 0.9)), url("background-citylines.jpg");
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-weight: 400;
+    color: whitesmoke;
   }
-  
+
+  footer {
+    /* justify-content: center; */
+    text-align: center;
+    background-color: rgb(41, 40, 40);
+    color: white;
+  }
+
+  /* Footer links */
   .contact-info a {
     padding: 3%;
     font-size: 400%;
     text-decoration: none;
-    color: black;
+    /* Footer icons and font color */
+    color: white;
     display: inline-block;
   }
 
+  /* Copyright text */
   .contact-info p {
     margin-top:6%;
     margin-bottom:0;
-    color:gray;
+    color: gray;
     font-size: 70%;
-  }
-  
-  .profile-img {
-    border-radius: 50%;
-    border: 10px solid rgba(0, 0, 0, 0.15);
   }
   
   
   /* Work Experience
   ------------------------------------*/
   #work {
-    /* background: rgba(169, 146, 125, .05); */
-    /* background: #243a49; */
-    /* background: rgb(230, 233, 236); */
-    background: rgb(67,66,66);
+    /* Light theme */
+    background: rgba(169, 146, 125, .1);
+
+    /* Dark theme */
+    /* background:#2c2726; */
   }
   
   .work-experience {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 1);
   }
 
   .relevant-courses {
@@ -196,15 +195,14 @@ html {
     background: #5C4742;
     color: white;
     /* background: linear-gradient(rgba(70,130,180, 0.3), rgba(70,130,180, 0.5)), url("https://cdn.glitch.com/ed6bd883-6ad8-436c-8874-36098ecf5544%2Fbackground.jpg?v=1571632772640"); */
-    background: linear-gradient(rgba(70,130,180, 0.3), rgba(70,130,180, 0.5)), url("background-stars.jpg");
+    background: linear-gradient(rgba(70,130,180, 0.3), rgba(7, 13, 19, 0.7)), url("background-blue-mountain.jpg");
+    /* background: url("background-poly.jpg"); */
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Open Sans', serif;
   }
-
-
 
   .intro{
     padding-left: 3%;
