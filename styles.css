@@ -119,24 +119,53 @@ html {
     padding: 2vh;
     text-decoration: none;
   }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a i{
+    color: gray;
+    font-size: 80%;
+  }
+
+  /* a:hover {
+    font-weight: 600;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+  } */
   
   /* Changes the link color to #111 (black) on hover */
   nav > a:hover {
     background-color: rgb(22, 22, 22);
   }
   
-  /* Header & Footer */
+  /* Header & Footer ----------------------------------------------*/
   
   .profile-img {
     border-radius: 50%;
-    border: 11px solid rgba(255, 255, 255, .8);
+    /* border: 8px solid rgba(255, 255, 255); */
+    border: 8px solid rgb(255, 255, 255);
+  }
+
+  /* Cert badge */
+  .certBadge {
+    max-width: 12%;
+  }
+
+  hr {
+    height: 3px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.158);
   }
   
   header {
     /* background-image: url("https://cdn.glitch.com/ed6bd883-6ad8-436c-8874-36098ecf5544%2Fbackground.jpg?v=1571632772640"); */
     /* background-image: linear-gradient(rgba(216, 107, 79, 0.3), rgba(134, 158, 189, 0.5)), url("background-stars.jpg"); */
     /* background: url("background-fairy.jpg"); */
-    background-image: linear-gradient(rgba(1, 48, 255, 0.2), rgba(0, 0, 0, 0.9)), url("background-citylines.jpg");
+    /* background-image: linear-gradient(rgba(1, 48, 255, 0.2), rgba(0, 0, 0, 0.9)), url("background-citylines.jpg"); */
+    background-image: linear-gradient(rgba(41, 30, 13, 0.5), rgba(0, 82, 189, 0.253)), url("background-citylines.jpg");
     background-attachment: fixed; 
     background-position: center;
     background-repeat: no-repeat;
@@ -194,8 +223,7 @@ html {
   #education {
     background: #5C4742;
     color: white;
-    /* background: linear-gradient(rgba(70,130,180, 0.3), rgba(70,130,180, 0.5)), url("https://cdn.glitch.com/ed6bd883-6ad8-436c-8874-36098ecf5544%2Fbackground.jpg?v=1571632772640"); */
-    background: linear-gradient(rgba(70,130,180, 0.3), rgba(7, 13, 19, 0.7)), url("background-poly.jpg");
+    background: linear-gradient(rgba(70,130,180, 0.3), rgba(7, 13, 19, 0.7)), url("northridge2.jpg");
     /* background: url("background-poly.jpg"); */
     background-attachment: fixed; 
     background-position: center;
